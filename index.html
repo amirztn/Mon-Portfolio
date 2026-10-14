@@ -1,22 +1,27 @@
-
+```html
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio personnel d'un étudiant en Master : parcours, compétences et projets.">
+  <meta name="description" content="Portfolio d'Amir Zitouna, étudiant en Master Informatique & DevOps à l'ETNA, à la recherche d'une alternance DevOps.">
   <meta name="theme-color" content="#0b0d12">
-  <title>AMIR ZITOUNA| Portfolio</title>
+
+  <title>Amir Zitouna | Portfolio DevOps</title>
+
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
+
 <body>
-
   <header class="header">
-    <a href="#accueil" class="logo">Mon Portfolio<span>.</span></a>
+    <a href="#accueil" class="logo">Amir Zitouna<span>.</span></a>
 
-    <button class="menu-toggle" id="menu-toggle"
-      aria-label="Ouvrir le menu" aria-expanded="false">
+    <button
+      class="menu-toggle"
+      id="menu-toggle"
+      aria-label="Ouvrir le menu"
+      aria-expanded="false">
       ☰
     </button>
 
@@ -30,37 +35,43 @@
   </header>
 
   <main>
+    <!-- ACCUEIL -->
     <section class="hero section" id="accueil">
       <div class="hero-content">
         <p class="eyebrow">
           <span class="dot"></span>
-          ÉTUDIANT EN MASTER DEVOPS PORTFOLIO PERSONNEL
+          RECHERCHE D'ALTERNANCE DEVOPS · SEPTEMBRE 2026
         </p>
 
         <h1>
           Bonjour, je suis<br>
-          <span class="gradient">AMIR</span>
+          <span class="gradient">Amir Zitouna</span>
         </h1>
 
         <p class="hero-description">
-          Étudiant en Master en <strong>DevOps  </strong>,
-          je développe mes compétences et transforme mes idées
-          en projets concrets.
+          Étudiant en <strong>Master Informatique &amp; DevOps à l'ETNA</strong>,
+          je souhaite contribuer à l'automatisation, au déploiement
+          et à la fiabilité des infrastructures informatiques.
         </p>
 
         <div class="hero-buttons">
           <a href="#projets" class="btn btn-primary">
             Découvrir mes projets ↘
           </a>
-          <a href="assets/cv.pdf" class="btn btn-secondary"
-             target="_blank" rel="noopener">
-            Télécharger mon CV ↓
+
+          <a
+            href="assets/cv.pdf"
+            class="btn btn-secondary"
+            target="_blank"
+            rel="noopener">
+            Consulter mon CV ↓
           </a>
         </div>
 
         <div class="hero-info">
-          <span>📍ile de France</span>
-          <span>🎓 Master en cours</span>
+          <span>📍 Île-de-France</span>
+          <span>🎓 ETNA · 2026–2028</span>
+          <span>🗓️ 3 semaines en entreprise / 1 jour à l'école</span>
         </div>
       </div>
 
@@ -69,23 +80,33 @@
         <div class="orbit orbit-two"></div>
 
         <div class="profile-card">
-          <p class="card-label">MON PROFIL </p>
-          <div class="avatar"><img src="images/photo.jpg" alt="AZ"></div>
-          <h2>AMIR ZITOUNA</h2>
-          <p class="muted">Étudiant en Master</p>
+          <p class="card-label">MON PROFIL</p>
+
+          <div class="avatar">
+            <img
+              src="images/photo.jpg"
+              alt="Photo de profil d'Amir Zitouna">
+          </div>
+
+          <h2>Amir Zitouna</h2>
+          <p class="muted">Étudiant en Master Informatique &amp; DevOps</p>
+
           <div class="card-divider"></div>
+
           <div class="qualities">
-            <span>Curieux.</span>
-            <span>Créatif.</span>
-            <span>Motivé.</span>
+            <span>Rigoureux.</span>
+            <span>Autonome.</span>
+            <span>Esprit d'analyse.</span>
           </div>
         </div>
-
       </div>
 
-      <a href="#apropos" class="scroll-link">DÉFILER POUR EXPLORER ↓</a>
+      <a href="#apropos" class="scroll-link">
+        DÉFILER POUR EXPLORER ↓
+      </a>
     </section>
 
+    <!-- À PROPOS -->
     <section class="section" id="apropos">
       <div class="section-title">
         <p class="eyebrow">01 / À PROPOS</p>
@@ -95,15 +116,18 @@
       <div class="about-grid">
         <div>
           <h3 class="large-text">
-            Apprendre, créer et relever de nouveaux défis.
+            Automatiser, déployer et fiabiliser les systèmes.
           </h3>
+
           <p class="muted">
-            Actuellement étudiant en Master en votre spécialité,
-            je m'intéresse à la technologie, à l'innovation et à la
-            résolution de problèmes. Mes études et mes projets me
-            permettent de mettre en pratique mes connaissances,
-            d'apprendre de nouvelles méthodes et de développer
-            mes compétences professionnelles.
+            Étudiant en Master Informatique &amp; DevOps à l'ETNA,
+            je recherche une alternance DevOps à partir de septembre 2026.
+            Mon parcours en cybersécurité, informatique et réseaux m'a
+            permis de développer des bases en administration Linux,
+            scripting Python et Bash, réseaux et développement web.
+
+            Je souhaite approfondir mes compétences en automatisation,
+            intégration continue, déploiement et fiabilité des infrastructures.
           </p>
         </div>
 
@@ -111,133 +135,200 @@
           <article class="detail-card">
             <span class="detail-icon">🎓</span>
             <div>
-              <h3>Formation</h3>
-              <p>Master — nom de votre formation</p>
+              <h3>Formation actuelle</h3>
+              <p>Master of Science Informatique &amp; DevOps — ETNA, 2026–2028</p>
             </div>
           </article>
 
           <article class="detail-card">
-            <span class="detail-icon">⌘</span>
+            <span class="detail-icon">🛠</span>
             <div>
-              <h3>Centres d'intérêt</h3>
-              <p>Technologie, innovation, projets personnels</p>
+              <h3>Mon objectif</h3>
+              <p>Alternance DevOps dès septembre 2026</p>
             </div>
           </article>
 
           <article class="detail-card">
             <span class="detail-icon">↗</span>
             <div>
-              <h3>Mon objectif</h3>
-              <p>Développer mes compétences et mon expérience</p>
+              <h3>Rythme d'alternance</h3>
+              <p>3 semaines en entreprise / 1 jour à l'école</p>
             </div>
           </article>
         </div>
       </div>
     </section>
 
+    <!-- COMPÉTENCES -->
     <section class="section section-alt" id="competences">
       <div class="section-title">
         <p class="eyebrow">02 / SAVOIR-FAIRE</p>
         <h2>Mes compétences<span class="accent">.</span></h2>
-        <p class="muted">Les compétences que je développe pendant mon parcours.</p>
+        <p class="muted">
+          Compétences techniques développées durant ma formation et mes projets.
+        </p>
       </div>
 
       <div class="skills-grid">
         <article class="skill-card">
           <span class="skill-number">01</span>
-          <h3>Développement</h3>
+          <h3>Langages &amp; scripting</h3>
           <div class="tags">
-            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            <span>Python</span>
+            <span>Bash</span>
+            <span>C++</span>
+            <span>PHP</span>
+            <span>HTML/CSS</span>
+            <span>JavaScript</span>
+            <span>SQL</span>
           </div>
         </article>
 
         <article class="skill-card">
           <span class="skill-number">02</span>
-          <h3>Outils techniques</h3>
+          <h3>Systèmes &amp; réseaux</h3>
           <div class="tags">
-            <span>Git</span><span>GitHub</span><span>VS Code</span>
+            <span>Linux</span>
+            <span>SSH</span>
+            <span>Windows Server</span>
+            <span>TCP/IP</span>
+            <span>LAN/WAN</span>
+            <span>VPN</span>
+            <span>VirtualBox</span>
+            <span>VMware</span>
           </div>
         </article>
 
         <article class="skill-card">
           <span class="skill-number">03</span>
-          <h3>Compétences transversales</h3>
+          <h3>DevOps &amp; automatisation</h3>
           <div class="tags">
-            <span>Analyse</span><span>Organisation</span><span>Équipe</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>CI/CD</span>
+            <span>Déploiement Linux</span>
+            <span>Scripts</span>
+            <span>VS Code</span>
+            <span>PyCharm</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-number">04</span>
+          <h3>Web, données &amp; sécurité</h3>
+          <div class="tags">
+            <span>Flask</span>
+            <span>API REST</span>
+            <span>MQTT</span>
+            <span>MariaDB</span>
+            <span>MySQL</span>
+            <span>Chart.js</span>
+            <span>IAM</span>
+            <span>Pare-feu</span>
           </div>
         </article>
       </div>
     </section>
 
+    <!-- PROJETS ET EXPÉRIENCE -->
     <section class="section" id="projets">
       <div class="section-title">
         <p class="eyebrow">03 / MES RÉALISATIONS</p>
         <h2>Mes projets<span class="accent">.</span></h2>
         <p class="muted">
-          Des projets académiques et personnels qui illustrent mon évolution.
+          Des réalisations qui illustrent mes compétences en développement,
+          traitement de données et administration système.
         </p>
       </div>
 
       <div class="projects-grid">
         <article class="project-card">
           <div class="project-visual visual-purple">
-            <span>01</span><strong>◫</strong>
+            <span>01</span>
+            <strong>⌁</strong>
           </div>
-          <p class="project-type">PROJET ACADÉMIQUE</p>
-          <h3>Mon premier projet</h3>
+
+          <p class="project-type">PROJET BTS · 2024–2025</p>
+          <h3>Application Web IoT</h3>
+
           <p class="muted">
-            Présentez ici le problème étudié, votre solution,
-            votre rôle et les résultats obtenus.
+            Conception d'une application Flask collectant en temps réel
+            les données de 5 capteurs IoT. Les données transitent via MQTT
+            avec Mosquitto, sont stockées dans MariaDB puis visualisées
+            sur un tableau de bord responsive avec Chart.js.
+
+            L'application a été déployée sur un serveur Linux local.
           </p>
+
           <div class="tags">
-            <span>Technologie 1</span><span>Technologie 2</span>
+            <span>Python</span>
+            <span>Flask</span>
+            <span>MQTT</span>
+            <span>MariaDB</span>
+            <span>Chart.js</span>
+            <span>Git</span>
           </div>
-          <a class="project-link"
-             href="https://github.com/" target="_blank"
-             rel="noopener">Voir le code source ↗</a>
+
+          <a
+            class="project-link"
+            href="https://github.com/amirztn"
+            target="_blank"
+            rel="noopener">
+            Voir mon GitHub ↗
+          </a>
         </article>
 
         <article class="project-card">
           <div class="project-visual visual-blue">
-            <span>02</span><strong>⌘</strong>
+            <span>02</span>
+            <strong>⌘</strong>
           </div>
-          <p class="project-type">PROJET PERSONNEL</p>
-          <h3>Une application web</h3>
+
+          <p class="project-type">EXPÉRIENCE PROFESSIONNELLE</p>
+          <h3>Stage technicien informatique</h3>
+
           <p class="muted">
-            Décrivez une application, un site ou un outil que
-            vous avez conçu et les technologies utilisées.
+            Stage chez Arc en Ciel Informatique à Toulouse,
+            de mai à juillet 2024. Déploiement et configuration de plus
+            de 15 postes Windows, résolution d'incidents matériels et réseau,
+            gestion des comptes et droits d'accès sous Windows Server,
+            support utilisateur et maintenance préventive.
           </p>
+
           <div class="tags">
-            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            <span>Windows</span>
+            <span>Windows Server</span>
+            <span>Réseaux</span>
+            <span>Support informatique</span>
           </div>
-          <a class="project-link"
-             href="https://github.com/" target="_blank"
-             rel="noopener">Voir le code source ↗</a>
         </article>
 
         <article class="project-card">
           <div class="project-visual visual-pink">
-            <span>03</span><strong>✳</strong>
+            <span>03</span>
+            <strong>↗</strong>
           </div>
-          <p class="project-type">PROJET DE MASTER</p>
-          <h3>Un projet à valoriser</h3>
+
+          <p class="project-type">DÉVELOPPEMENT WEB</p>
+          <h3>Site web pour un client</h3>
+
           <p class="muted">
-            Expliquez votre démarche, les outils utilisés
-            et ce que ce projet vous a appris.
+            Développement et livraison d'un site web complet en HTML,
+            CSS et PHP en trois semaines, dans le respect du cahier
+            des charges du client pendant mon stage.
           </p>
+
           <div class="tags">
-            <span>Recherche</span><span>Analyse</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>PHP</span>
+            <span>Développement web</span>
           </div>
-          <a class="project-link"
-             href="https://github.com/" target="_blank"
-             rel="noopener">Voir le code source ↗</a>
         </article>
       </div>
-      <p class="edit-note">
-        Remplacez les exemples par vos vrais projets et vos liens.
-      </p>
     </section>
 
+    <!-- PARCOURS -->
     <section class="section section-alt" id="parcours">
       <div class="section-title">
         <p class="eyebrow">04 / FORMATION</p>
@@ -246,55 +337,136 @@
 
       <div class="timeline">
         <article class="timeline-item">
-          <p class="timeline-date">2025 — 2027 · À ADAPTER</p>
+          <p class="timeline-date">2026 — 2028</p>
           <div>
-            <h3>Master en votre spécialité</h3>
-            <p class="timeline-place">Nom de votre université</p>
+            <h3>Master of Science Informatique &amp; DevOps</h3>
+            <p class="timeline-place">ETNA · Ivry-sur-Seine (94)</p>
             <p class="muted">
-              Présentez les enseignements principaux, les projets
-              académiques et les connaissances développées.
+              Formation en informatique et DevOps, avec une recherche
+              d'alternance à partir de septembre 2026.
             </p>
           </div>
         </article>
 
         <article class="timeline-item">
-          <p class="timeline-date">ANNÉES PRÉCÉDENTES</p>
+          <p class="timeline-date">2025 — 2026</p>
           <div>
-            <h3>Licence ou formation précédente</h3>
-            <p class="timeline-place">Nom de votre établissement</p>
-            <p class="muted">
-              Ajoutez votre diplôme précédent et vos principales réalisations.
+            <h3>Prépa ATS — Adaptation Technicien Supérieur</h3>
+            <p class="timeline-place">
+              Lycée Paul Éluard · Saint-Denis (93)
             </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <p class="timeline-date">2023 — 2025</p>
+          <div>
+            <h3>BTS Cybersécurité, Informatique et Réseaux (CIEL)</h3>
+            <p class="timeline-place">
+              Lycée Simone de Beauvoir · Toulouse
+            </p>
+            <p class="muted">
+              Réalisation d'un projet IoT de collecte et visualisation
+              de données de capteurs.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <p class="timeline-date">2022 — 2023</p>
+          <div>
+            <h3>Baccalauréat Sciences &amp; Technologies (STI)</h3>
+            <p class="timeline-place">Lycée Ibn Charaf · Tunis</p>
           </div>
         </article>
       </div>
     </section>
 
+    <!-- LANGUES -->
+    <section class="section" id="langues">
+      <div class="section-title">
+        <p class="eyebrow">05 / LANGUES &amp; QUALITÉS</p>
+        <h2>Un profil polyvalent<span class="accent">.</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>Langues</h3>
+          <div class="tags">
+            <span>Arabe · C2</span>
+            <span>Français · C1</span>
+            <span>Anglais · B1</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <h3>Qualités professionnelles</h3>
+          <div class="tags">
+            <span>Rigueur</span>
+            <span>Esprit d'analyse</span>
+            <span>Travail en équipe</span>
+            <span>Autonomie</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
     <section class="contact-section section" id="contact">
-      <p class="eyebrow">05 / CONTACT</p>
-      <h2>Parlons de votre<br><span class="gradient">prochain projet.</span></h2>
+      <p class="eyebrow">06 / CONTACT</p>
+
+      <h2>
+        Construisons la suite<br>
+        <span class="gradient">ensemble.</span>
+      </h2>
+
       <p class="muted">
-        Une opportunité, un stage ou un projet en tête ?
-        Je serais ravi d'échanger avec vous.
+        Je recherche une alternance DevOps à partir de septembre 2026.
+        N'hésitez pas à me contacter pour échanger sur une opportunité.
       </p>
 
       <div class="contact-buttons">
         <a href="mailto:amir.zitouna04@gmail.com" class="btn btn-primary">
           M'envoyer un e-mail ↗
         </a>
-        <a href="https://www.linkedin.com/in/zitounaamir/" class="btn btn-secondary"
-           target="_blank" rel="noopener">LinkedIn ↗</a>
-        <a href="https://github.com/amirztn" class="btn btn-secondary"
-           target="_blank" rel="noopener">GitHub ↗</a>
+
+        <a
+          href="https://www.linkedin.com/in/zitounaamir/"
+          class="btn btn-secondary"
+          target="_blank"
+          rel="noopener">
+          LinkedIn ↗
+        </a>
+
+        <a
+          href="https://github.com/amirztn"
+          class="btn btn-secondary"
+          target="_blank"
+          rel="noopener">
+          GitHub ↗
+        </a>
+
+        <a
+          href="assets/cv.pdf"
+          class="btn btn-secondary"
+          target="_blank"
+          rel="noopener">
+          CV PDF ↗
+        </a>
       </div>
+
+      <p class="muted">
+        Téléphone :
+        <a href="tel:+33758951850">+33 7 58 95 18 50</a>
+      </p>
     </section>
   </main>
 
   <footer class="footer">
-    <a href="#accueil" class="logo">portfolio<span>.</span></a>
-    <p>© <span id="year"></span> — Votre Prénom. Tous droits réservés.</p>
+    <a href="#accueil" class="logo">Amir Zitouna<span>.</span></a>
+    <p>© <span id="year"></span> — Amir Zitouna. Tous droits réservés.</p>
     <a href="#accueil">Retour en haut ↑</a>
   </footer>
-
 </body>
 </html>
+```
